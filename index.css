@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: uniform;
+}
+
+@font-face {
+    font-family: uniform;
+    src: url(./fonts/Uniform.ttf);
+}
+
+
+/* header */
+
+header{
+    background-color: #186CB0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1% 5%;
+}
+
+h1:hover{
+    cursor: pointer;
+}
+
+.header_nav{
+   
+    display: flex;
+    width: 15%;
+
+    
+    
+}
+
+.header_nav_element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.header_nav_element p:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.material-icons{
+    margin-bottom:5px ;
+}
