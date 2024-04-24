@@ -20,17 +20,17 @@ header{
     flex-direction: row;
     justify-content: space-between;
     padding: 1% 5%;
+    align-items: center;
 }
 
 h1:hover{
     cursor: pointer;
+    
 }
 
 .header_nav{
    
     display: flex;
-    width: 15%;
-
     
     
 }
