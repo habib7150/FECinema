@@ -139,14 +139,30 @@ main {
     background-image: url(./images/ad.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 250px;
+    height: 220px;
+    max-width: 1400px;
     display: flex;
     flex-direction: row;
     justify-content: end;
+    margin: auto;
     
     
     
 }
+
+@media screen and (max-width: 600px) {
+    .jumbotron {
+      display: none;
+    }
+
+  }
+
+  @media screen and (max-width: 400px) {
+    .jumbotron {
+      display: none;
+    }
+    
+  }
 
 #jumbotron-child-box{
     background-color: rgba(0, 0, 0, 0.404);
