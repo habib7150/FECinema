@@ -291,6 +291,11 @@ h2{
     margin: 10px;
 }
 
+.schedule:hover {
+    cursor: pointer;
+    background-color: #17598f;
+}
+
 .room{
     display: flex;
     flex-direction: column;
@@ -302,6 +307,15 @@ h2{
     background-color: yellow;
     color: black;
     padding: 5px;
+}
+
+/* footer */
+
+footer{
+    background-color: #186CB0;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 
