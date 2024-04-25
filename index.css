@@ -10,6 +10,78 @@
     src: url(./fonts/Uniform.ttf);
 }
 
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: #186CB0;
+  
+    
+    -webkit-font-smoothing: antialiased;
+   
+    text-rendering: optimizeLegibility;
+  
+    -moz-osx-font-smoothing: grayscale;
+  
+    font-feature-settings: 'liga';
+  }
+
+  .material-icons-outlined {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: #186CB0;
+  
+    
+    -webkit-font-smoothing: antialiased;
+   
+    text-rendering: optimizeLegibility;
+  
+    -moz-osx-font-smoothing: grayscale;
+  
+    font-feature-settings: 'liga';
+  }
+
+  .material-icons-outlined-white {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: #ffffff;
+  
+    
+    -webkit-font-smoothing: antialiased;
+   
+    text-rendering: optimizeLegibility;
+  
+    -moz-osx-font-smoothing: grayscale;
+  
+    font-feature-settings: 'liga';
+  }
+
 
 /* header */
 
@@ -133,3 +205,105 @@ main {
     background-color: #17598f;
 }
 
+h2{
+    color: #186CB0;
+    margin: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.offres{
+    background-color: #ECECEC;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 2px 1px rgb(148, 142, 142);
+}
+
+.offres span{
+    font-weight: bold;
+}
+
+
+
+.movie-box{
+    background-color:#ECECEC ;
+    margin: 10px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.movie-description {
+    width: 50%;
+    text-align: end;
+}
+
+.affiche {
+    display: flex;
+    max-width: 30%;
+    margin: 20px;
+}
+
+.affiche img{
+    width: 100%;
+}
+
+.img-container {
+    width: 50%;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: white;
+
+}
+
+.movie-description {
+    margin: 20px;
+}
+
+.genre {
+    background-color:#4F8B1A ;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    width: 100px;
+    border-radius: 3px;
+}
+
+.bottom {
+    background-color: #C4C4C4;
+    padding: 10px;
+    display: flex;
+}
+
+.schedule{
+    display: flex;
+    background-color: #186CB0;
+    color: white;
+    justify-content: space-around;
+    width: 20%;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.room{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.full{
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+}
+
+
+ 
+  
