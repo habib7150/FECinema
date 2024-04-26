@@ -256,6 +256,12 @@ h2{
     justify-content: space-between;
 }
 
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .movie-description {
     width: 50%;
     text-align: end;
